@@ -1,0 +1,2 @@
+# Keep frozen source/data bytes stable for PUBLIC_RELEASE_MANIFEST checks.
+* -text

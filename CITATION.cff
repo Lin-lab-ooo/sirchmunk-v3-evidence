@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Please cite this experimental software and the upstream LENS and HotpotQA papers when using it."
+title: "Sirchmunk V3: Budgeted Graph Evidence Selection"
+type: software
+version: 0.3.0
+date-released: 2026-10-07
+license: MIT
+authors:
+  - name: "Sirchmunk Freshness Guard contributors"
+abstract: "An experimental bounded lexical title-graph selector integrated with a pinned Sirchmunk DEEP workflow, with anonymized paired HotpotQA measurements. No overall superiority or semantic reliability guarantee is established."
+keywords:
+  - retrieval-augmented generation
+  - multi-hop question answering
+  - evidence selection
+  - budgeted search

@@ -1,0 +1,8 @@
+{
+  "name": "sirchmunk-v3-figures",
+  "version": "0.3.0",
+  "private": true,
+  "description": "Optional offline SVG-to-PNG figure renderer",
+  "scripts": {"render:figures": "node scripts/render_figure.cjs"},
+  "dependencies": {"sharp": "0.35.4"}
+}

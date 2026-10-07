@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sirchmunk-v3-evidence"
+version = "0.3.0"
+description = "V3 bounded graph evidence selection for pinned Sirchmunk DEEP"
+requires-python = ">=3.12"
+license = {text = "MIT"}
+dependencies = []
+
+[tool.setuptools]
+license-files = ["LICENSE", "licenses/*.txt", "THIRD_PARTY_NOTICES.md"]
+
+[tool.setuptools.packages.find]
+include = ["reliable_evidence*", "native_local*", "sirchmunk_freshness*"]
+
+[tool.research]
+upstream-commit = "b314e11fcea87cf8146b2844cf2f991208c021d9"
+default-provider-calls = 0
+public-paid-entry = false

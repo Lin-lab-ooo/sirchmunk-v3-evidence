@@ -1,0 +1,48 @@
+{
+  "status": "PASSED_OFFLINE_NATIVE",
+  "upstream_commit": "b314e11fcea87cf8146b2844cf2f991208c021d9",
+  "profiles": [
+    "original_deep",
+    "v3_graph_deep"
+  ],
+  "rows": [
+    {
+      "profile": "original_deep",
+      "completed": true,
+      "scripted_requests": 5,
+      "provider_calls": 0,
+      "stages": [
+        "query_scope_classification",
+        "analysis",
+        "synthesis",
+        "typed_comparison",
+        "answer_span"
+      ],
+      "native_read_excerpt_count": 2,
+      "graph_selection_events": 0,
+      "native_correction_applied": true
+    },
+    {
+      "profile": "v3_graph_deep",
+      "completed": true,
+      "scripted_requests": 5,
+      "provider_calls": 0,
+      "stages": [
+        "query_scope_classification",
+        "analysis",
+        "synthesis",
+        "typed_comparison",
+        "answer_span"
+      ],
+      "native_read_excerpt_count": 2,
+      "graph_selection_events": 1,
+      "native_correction_applied": true
+    }
+  ],
+  "provider_calls": 0,
+  "network_calls": 0,
+  "key_read": false,
+  "sqlite_access": false,
+  "forbidden_attempts": [],
+  "scope": "fictional scripted native adaptive mechanics, not model accuracy"
+}

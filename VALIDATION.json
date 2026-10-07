@@ -1,0 +1,23 @@
+{
+  "schema": "v3-source-release-validation-v1",
+  "status": "PASSED_LOCAL_RELEASE_CHECKS",
+  "core_tests_run": 54,
+  "core_tests_failed": 0,
+  "core_tests_skipped": 0,
+  "statistics_recomputed": true,
+  "published_rows": 160,
+  "planned_unique_questions": 80,
+  "completed_baseline_v3_pairs": 79,
+  "figure_visually_checked": true,
+  "python_syntax_checked": true,
+  "local_document_links_checked": true,
+  "native_mechanism_status": "PASSED_OFFLINE_NATIVE",
+  "native_scripted_rows": 2,
+  "provider_calls": 0,
+  "key_read": false,
+  "network_calls": 0,
+  "sqlite_access": false,
+  "fresh_environment_install_tested": false,
+  "private_data_findings": [],
+  "scope": "source checkout, offline mechanics and scalar statistical reproduction; no invoice or exact API-output reproduction"
+}
